@@ -6,4 +6,9 @@ public class book {
         booka.price*=0.9;
 
     }
+    void show(){
+        System.out.println(name);
+        System.out.println(price);
+
+    }
 }

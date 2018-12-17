@@ -6,5 +6,6 @@ public class main {
         tom.set(tom);
         System.out.println(tom.name+tom.price);
         System.out.println(tom.status);
+
     }
 }
