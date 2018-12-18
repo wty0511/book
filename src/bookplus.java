@@ -1,13 +1,13 @@
  class bookplus extends book {
     boolean status;
+    String name;
+    bookplus(){
 
-     bookplus(String name,double price,boolean status){
-        this.name=name;
-        super.price=price;
-        this.status=status;
+        super.price=1;
+        this.price=0.0;
+    }
 
 
-     }
     void show(){
         System.out.println(name);
         System.out.println(price);
